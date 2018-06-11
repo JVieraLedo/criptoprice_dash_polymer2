@@ -1,6 +1,7 @@
 <link rel="import" href="bower_components/polymer/polymer-element.html">
 <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="bower_components/paper-spinner/paper-spinner-lite.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
 
 <script src="bower_components/chart.js/dist/Chart.js"></script>
 <script src="bower_components/moment/min/moment.min.js"></script>
@@ -27,6 +28,7 @@
                 <p>[[item.code]] - [[item.name]] - $[[item.price]]</p>
             </template>
         </div>
+        <paper-button toggles raised class="green">toggles</paper-button>
 
         <div hidden$="[[loading]]" class="chart">
             <canvas height="2" width="4" id="canvas"></canvas>
