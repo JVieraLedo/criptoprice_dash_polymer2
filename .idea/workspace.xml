@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b874cade-54dc-46c4-bc9d-3bad8b70dcdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoprice-dash.html" afterPath="$PROJECT_DIR$/cryptoprice-dash.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="cryptoprice-dash.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cryptoprice-dash.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+            <state relative-caret-position="408">
+              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="e#1322#1370#0" expanded="false" />
                 <element signature="e#1405#2096#0" expanded="false" />
@@ -50,9 +49,8 @@
                 <element signature="e#2720#2913#0" expanded="false" />
                 <element signature="e#2950#3173#0" expanded="false" />
                 <element signature="e#3212#3438#0" expanded="false" />
-                <element signature="e#3490#3804#0" expanded="false" />
-                <element signature="e#3859#5040#0" expanded="false" />
-                <element signature="e#4006#5028#0" expanded="false" />
+                <element signature="e#4076#5257#0" expanded="false" />
+                <element signature="e#4223#5245#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -167,7 +165,7 @@
       <workItem from="1528698737386" duration="2427000" />
       <workItem from="1528705595341" duration="626000" />
       <workItem from="1528706266599" duration="3634000" />
-      <workItem from="1528719436331" duration="5579000" />
+      <workItem from="1528719436331" duration="6152000" />
     </task>
     <task id="LOCAL-00001" summary="JVL - INIT COMMIT">
       <created>1528706378129</created>
@@ -211,11 +209,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528725199649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JVL - Update dashboard">
+      <created>1528725385302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528725385302</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12266000" />
+    <option name="totallyTimeSpent" value="12839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -278,9 +283,8 @@
             <element signature="e#2720#2913#0" expanded="false" />
             <element signature="e#2950#3173#0" expanded="false" />
             <element signature="e#3212#3438#0" expanded="false" />
-            <element signature="e#3490#3804#0" expanded="false" />
-            <element signature="e#3859#5040#0" expanded="false" />
-            <element signature="e#4006#5028#0" expanded="false" />
+            <element signature="e#4076#5257#0" expanded="false" />
+            <element signature="e#4223#5245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,9 +320,8 @@
             <element signature="e#2720#2913#0" expanded="false" />
             <element signature="e#2950#3173#0" expanded="false" />
             <element signature="e#3212#3438#0" expanded="false" />
-            <element signature="e#3490#3804#0" expanded="false" />
-            <element signature="e#3859#5040#0" expanded="false" />
-            <element signature="e#4006#5028#0" expanded="false" />
+            <element signature="e#4076#5257#0" expanded="false" />
+            <element signature="e#4223#5245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -354,9 +357,8 @@
             <element signature="e#2720#2913#0" expanded="false" />
             <element signature="e#2950#3173#0" expanded="false" />
             <element signature="e#3212#3438#0" expanded="false" />
-            <element signature="e#3490#3804#0" expanded="false" />
-            <element signature="e#3859#5040#0" expanded="false" />
-            <element signature="e#4006#5028#0" expanded="false" />
+            <element signature="e#4076#5257#0" expanded="false" />
+            <element signature="e#4223#5245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -393,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cryptoprice-dash.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        <state relative-caret-position="408">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="e#1322#1370#0" expanded="false" />
             <element signature="e#1405#2096#0" expanded="false" />
@@ -406,9 +408,8 @@
             <element signature="e#2720#2913#0" expanded="false" />
             <element signature="e#2950#3173#0" expanded="false" />
             <element signature="e#3212#3438#0" expanded="false" />
-            <element signature="e#3490#3804#0" expanded="false" />
-            <element signature="e#3859#5040#0" expanded="false" />
-            <element signature="e#4006#5028#0" expanded="false" />
+            <element signature="e#4076#5257#0" expanded="false" />
+            <element signature="e#4223#5245#0" expanded="false" />
           </folding>
         </state>
       </provider>

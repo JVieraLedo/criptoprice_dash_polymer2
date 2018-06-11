@@ -114,10 +114,17 @@
           var label = [];
           var price = [];
           data.response.data.prices.forEach(function (el) {
-            label.push(el.time);
+            label.push(this._computeDateTime(el.time));
             price.push(el.price);
           }, this);
           this._generateLineChart(label, price, code);
+        }
+
+        _computeDateTime (dateIn) {
+          if (dateIn) {
+            return moment(dateIn, 'YYYY-MM-DDThh:mm:aaZ').format('M/DD/YYYY h:mm a');
+          }
+          return dateIn;
         }
 
         _generateLineChart (label, price, labelName) {
