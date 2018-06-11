@@ -1,0 +1,21 @@
+{
+  "name": "cryptoprice-dash",
+  "authors": [
+    "Jose Viera"
+  ],
+  "description": "Example dashboard Polymer 2.0",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#2.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax#^2.1.3"
+  }
+}
