@@ -3,6 +3,7 @@
 <link rel="import" href="bower_components/paper-spinner/paper-spinner-lite.html">
 
 <script src="bower_components/chart.js/dist/Chart.js"></script>
+<script src="bower_components/moment/min/moment.min.js"></script>
 
 
 <dom-module id="cryptoprice-dash">
@@ -121,7 +122,6 @@
 
         _generateLineChart (label, price, labelName) {
           if (this.myLineChart !== undefined) this.myLineChart.destroy();
-
           this.myLineChart = new Chart(this.$.canvas.getContext('2d'), {
             type: 'line',
             data: {
