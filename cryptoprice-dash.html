@@ -23,10 +23,39 @@
                 {
                   code: 'BTC',
                   name: 'Bitcoin'
+                },
+                {
+                  code: 'ETH',
+                  name: 'Ethereum'
+                },
+                {
+                  code: 'LTC',
+                  name: 'Litecoin'
                 }
               ]
             }
           };
+        }
+
+        ready () {
+          super.ready();
+          Polymer.RenderStatus.afterNextRender(this,
+            function () {
+              this._getCurrencyData();
+            });
+        }
+
+        _getCurrencyData () {
+          var request = this.$.coinbase;
+          var currencies = this.currencies;
+          currencies.forEach(function (el) {
+            request.url = 'https://api.coinbase.com/v2/prices/' + el.code + '-USD/spot';
+            request.generateRequest();
+          }, this);
+        }
+
+        _handleResponse (response) {
+          console.log(response);
         }
       }
 
