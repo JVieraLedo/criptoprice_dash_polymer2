@@ -25,10 +25,11 @@
         <paper-spinner-lite active="[[loading]]" class="thin"></paper-spinner-lite>
         <div hidden$="[[loading]]">
             <template is="dom-repeat" items="[[currencies]]">
-                <p>[[item.code]] - [[item.name]] - $[[item.price]]</p>
+                <paper-button noink on-click="_getCurrencyHistoricData" data-item$="[[item.code]]">
+                    [[item.name]] - $[[item.price]]
+                </paper-button>
             </template>
         </div>
-        <paper-button toggles raised class="green">toggles</paper-button>
 
         <div hidden$="[[loading]]" class="chart">
             <canvas height="2" width="4" id="canvas"></canvas>
@@ -91,6 +92,9 @@
         }
 
         _getCurrencyHistoricData (currency) {
+          if(currency.model !== undefined){
+            currency = currency.model.__data.item.code;
+          }
           var request = this.$.coinbase;
           request.url = 'https://api.coinbase.com/v2/prices/' + currency + '-USD/historic?period=week';
           request.generateRequest();
